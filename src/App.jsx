@@ -1,16 +1,16 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 // import "./App.css";
 import { db } from "./firebase";
 import { uid } from "uid";
 import Crud from "./pages/Crud";
 import Tes from "./components/tes";
+import Hompepage from "./pages/Hompage";
 
 function App() {
   return (
     <>
-      <Tes />
+      <Hompepage />
     </>
   );
 }
