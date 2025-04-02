@@ -5,11 +5,12 @@ import viteLogo from "/vite.svg";
 import { db } from "./firebase";
 import { uid } from "uid";
 import Crud from "./pages/Crud";
+import Tes from "./components/tes";
 
 function App() {
   return (
     <>
-      <h1>tesss</h1>
+      <Tes />
     </>
   );
 }
