@@ -4,6 +4,9 @@ import {
   signOut,
   getAuth,
 } from "firebase/auth";
+import { app } from "./firebaseConfig";
+import { getFirestore, addDoc, collection } from "firebase/firestore";
+import { toast } from "react-toastify";
 
 const auth = getAuth(app);
 

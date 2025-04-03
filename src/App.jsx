@@ -1,10 +1,10 @@
 import React from "react";
-import UsersManagement from "./pages/UsersManagement";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
     <main>
-      <UsersManagement />
+      <LoginPage />
     </main>
   );
 }
