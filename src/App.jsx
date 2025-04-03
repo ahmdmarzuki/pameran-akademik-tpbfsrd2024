@@ -1,17 +1,11 @@
-import { useState } from "react";
-
-// import "./App.css";
-import { db } from "./firebase";
-import { uid } from "uid";
-import Crud from "./pages/Crud";
-import Tes from "./components/tes";
-import Hompepage from "./pages/Hompage";
+import React from "react";
+import UsersManagement from "./pages/UsersManagement";
 
 function App() {
   return (
-    <>
-      <Hompepage />
-    </>
+    <main>
+      <UsersManagement />
+    </main>
   );
 }
 
