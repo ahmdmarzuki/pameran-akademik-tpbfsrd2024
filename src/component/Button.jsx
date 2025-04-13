@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const Button = ({ label }) => {
+const loginButton = ({ label }) => {
   const [count, setCount] = useState(0);
 
   const increase = () => {
